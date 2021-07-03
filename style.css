@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=ubuntu");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ubuntu", sans-serif;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bg {
+  z-index: -1;
+  filter: blur(0px);
+  height: calc(100vh + 60px);
+  width: calc(100vw + 60px);
+  top: -30;
+  left: -30;
+  position: absolute;
+  background: url(https://images.unsplash.com/photo-1552645265-1d8c244be6f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG9zaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80)
+    no-repeat center center/cover;
+}
+
+.loading-text {
+  font-size: 50px;
+  color: white;
+}
